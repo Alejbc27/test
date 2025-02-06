@@ -29,7 +29,7 @@ substitutions:
   _DATAFLOW_JOB_NAME: vehicle-telemetry
   _DATAFLOW_TEMPLATE_NAME: alej
   _REGION_ID: europe-west1
-  _ARTIFACT_REGISTRY_REPOSITORY: test
+  _ARTIFACT_REGISTRY_REPOSITORY: vehicle-telemetry
   _ARTIFACT_REGISTRY_IMAGE_NAME: vehicle-telemetry-dataflow-image
   _DATAFLOW_PYTHON_FILE_PATH: edem_dataflow_pipeline.py
   _DATAFLOW_REQUIREMENTS_FILE_PATH: requirements.txt
