@@ -25,7 +25,7 @@ steps:
 options:
   logging: STACKDRIVER_ONLY
 substitutions:
-  _DATAFLOW_BASE_BUCKET: vehicle-telemetry-bucket
+  _DATAFLOW_BASE_BUCKET: vehicle_telemetry_bucket
   _DATAFLOW_JOB_NAME: vehicle-telemetry
   _DATAFLOW_TEMPLATE_NAME: alej
   _REGION_ID: europe-west1
