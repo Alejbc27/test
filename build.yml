@@ -31,8 +31,8 @@ substitutions:
   _REGION_ID: europe-west1
   _ARTIFACT_REGISTRY_REPOSITORY: test
   _ARTIFACT_REGISTRY_IMAGE_NAME: vehicle-telemetry-dataflow-image
-  _DATAFLOW_PYTHON_FILE_PATH: C:\Serverless_EDEM_2025\02_Code\edem_dataflow_pipeline.py
-  _DATAFLOW_REQUIREMENTS_FILE_PATH: C:\Serverless_EDEM_2025\02_Code\requirements.txt
+  _DATAFLOW_PYTHON_FILE_PATH: edem_dataflow_pipeline.py
+  _DATAFLOW_REQUIREMENTS_FILE_PATH: requirements.txt
   _BATTERY_PUBSUB_SUBSCRIPTION_NAME: projects/custom-router-446418-k7/subscriptions/battery_telemetry_topic-sub
   _DRIVING_PUBSUB_SUBSCRIPTION_NAME: projects/custom-router-446418-k7/subscriptions/driving_telemetry_topic-sub
   _ENVIRONMENT_PUBSUB_SUBSCRIPTION_NAME: projects/custom-router-446418-k7/subscriptions/enviroment_telemetry_topic-sub
